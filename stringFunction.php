@@ -8,7 +8,7 @@ $lg = strlen($fullName);
  * cp: strrev();
  */
 $rev = strrev($fullName);
-// print_r($rev);
+print_r($rev);
 
 /**
  * chuyen sang ky tu thuong
@@ -19,14 +19,14 @@ $rev = strrev($fullName);
 
 $low = strtolower($fullName);
 $upp = strtoupper($fullName);
-// print_r($upp);
+print_r($upp);
 
 /**
  * tim kiem va thay the
  * cp: str_replace(' ', '-',$x)
  */
 $rep = str_replace(' ', '**', $fullName);
-// print_r($rep);
+print_r($rep);
 
 /**
  * Kiem tra str bat dau voi 1substr nao do khong

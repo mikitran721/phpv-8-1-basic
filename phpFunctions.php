@@ -61,7 +61,7 @@ array_pop($arr);
 // xoa phan tu dau array `array_shift()`
 array_shift($arr);
 
-// chunk an arry - xoa phan tu bat ky theo vi tri chi dinh
+// chunk an arry - chat/chia phan tu bat ky theo vi tri chi dinh
 $chunk_arr = array_chunk($arr, 2);
 
 
@@ -89,15 +89,15 @@ $b = ['poo', 'TNC'];
 $ab = array_combine($a, $b);
 
 // chi lay key cua array
-// -- print_r(array_keys($ab));
+--print_r(array_keys($ab));
 
 // chi lay ra value cua array
-// -- print_r(array_values($ab));
+--print_r(array_values($ab));
 
 /**
  * ARRAY-FLIP: dao key-value cho nhau
  */
-// -- print_r(array_flip($ab));
+--print_r(array_flip($ab));
 
 /**
  * tao mot array tu mot dai so
@@ -114,7 +114,7 @@ print_r($ra);
 $d = array_map(function ($x) {
     return $x * $x;
 }, $ra);
-// print_r($d);
+print_r($d);
 
 /**
  * viet theo arrow function

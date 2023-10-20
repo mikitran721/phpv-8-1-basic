@@ -2,14 +2,14 @@
 // ARRAY
 echo "We talk about Array <br />";
 
-/* $array_numbers = [1, 3, 3, 5];
+$array_numbers = [1, 3, 3, 5];
 var_dump($array_numbers);
 echo "<br />";
-print_r($array_numbers); */
-/* echo "<br />";
+print_r($array_numbers);
+echo "<br />";
 
 $fruits = ['pineapple', 'melon', 'apple'];
-echo $fruits[0]; */
+echo $fruits[0];
 
 // thiet dat theo index: key-value
 
