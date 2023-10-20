@@ -15,6 +15,8 @@
 - user co the chen ma doc hay ma javascript vao o nhap lieu gui len server; nen can loc du lieu khi nhan vao tu client gui ve
   - su dung `htmlspecialchars($bien)`;
   - sung dung `filter_var($_POST['name'], FILTER_SANITIZE_SPECIAL_CHARS) ?? 'No name';`
+  - du dung `$email = filter_input(INPUT_POST,'email',FILTER_SANITIZE_SPECIAL_CHARS);`
+  -
 
 ## cai dat voi `php.ini`
 
