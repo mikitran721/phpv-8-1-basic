@@ -8,6 +8,14 @@
 - Live Server Web Extension - Chrome;
 - `PHPView extension` tren chrome; ho tro view cho PHP
 
+# LUU Y
+
+- do dai cua url request max=255 ky tu
+- dung toan tu `??` de tao gia tri default; vd: `$name = $_POST['name'] ?? 'no name';`
+- user co the chen ma doc hay ma javascript vao o nhap lieu gui len server; nen can loc du lieu khi nhan vao tu client gui ve
+  - su dung `htmlspecialchars($bien)`;
+  - sung dung `filter_var($_POST['name'], FILTER_SANITIZE_SPECIAL_CHARS) ?? 'No name';`
+
 ## cai dat voi `php.ini`
 
 de tat thong bao loi khi deploy san pham, can config lai thong bao loi trong `xampp/php/php.ini`. Cu the:
